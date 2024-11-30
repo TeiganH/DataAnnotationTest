@@ -20,7 +20,7 @@ header {
 }
   
   header img, header h1 {
-    margin-right: 10px; /* Add margin between the logo and text */
+    margin-right: 10px;
   }
 
 header img {
@@ -85,8 +85,8 @@ nav a:hover {
     padding: 20px;
     background-color: #0E1113;
     min-height: calc(100vh - 50px);
-    width: 400px; /* Set the width to 300px */
-    margin: 0 auto; /* Center the content */
+    width: 400px; 
+    margin: 0 auto; 
   }
 
 .post {
@@ -101,7 +101,7 @@ nav a:hover {
 
 .post a {
     text-decoration: none;
-    color: #fff; /* Or any desired color */
+    color: #fff;=
   }
 
 .post-header {
@@ -135,7 +135,7 @@ background-color: #333333;
 border-radius: 5px;
 padding: 5px 10px;
 color: white;
-border: none; /* Remove default button border */
+border: none;
 }
 
 .post-actions button:hover {
@@ -143,7 +143,7 @@ border: none; /* Remove default button border */
     border-radius: 5px;
     padding: 5px 10px;
     color: white;
-    border: none; /* Remove default button border */
+    border: none; 
 }
 
 .post-content {
@@ -159,7 +159,6 @@ border: none; /* Remove default button border */
 
 .post-content img {
     width: 100%;
-    /* Adjust width as needed */
     height: auto;
 }
 
