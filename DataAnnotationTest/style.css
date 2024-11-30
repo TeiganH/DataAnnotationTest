@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #0E1113;
+    padding: 10px;
+    padding-left: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(240, 240, 240, 0.5);
+    text-decoration: none;
+}
+  
+  header img, header h1 {
+    margin-right: 10px; /* Add margin between the logo and text */
+  }
+
+header img {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+
+header a {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+}
+
+nav {
+    width: 100px;
+    background-color: #0E1113;
+    padding: 10px;
+    border-right: 1px solid rgba(240, 240, 240, 0.5);
+    position: fixed;
+    top: 51px;
+    left: 0;
+    height: calc(100vh - 50px);
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+nav a:hover {
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: left;
+    background-color: #333333;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #0E1113;
+    min-height: calc(100vh - 50px);
+    width: 400px; /* Set the width to 300px */
+    margin: 0 auto; /* Center the content */
+  }
+
+.post {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #0E1113;
+    position: relative;
+    transition: background-color 0.1s ease-in-out;
+    box-sizing: border-box;
+
+}
+
+.post a {
+    text-decoration: none;
+    color: #fff; /* Or any desired color */
+  }
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.post-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-info p:first-child {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.post-info p:last-child {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.post-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.post-actions button {
+background-color: #333333;
+border-radius: 5px;
+padding: 5px 10px;
+color: white;
+border: none; /* Remove default button border */
+}
+
+.post-actions button:hover {
+    background-color: #5c5b5b;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    border: none; /* Remove default button border */
+}
+
+.post-content {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+.post-content p {
+    color: white;
+  }
+
+.post-content img {
+    width: 100%;
+    /* Adjust width as needed */
+    height: auto;
+}
+
+.post:hover {
+    background-color: #333333;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+    padding: 20px;
+}
